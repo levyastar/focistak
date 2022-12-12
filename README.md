@@ -1,0 +1,2 @@
+# focistak
+focistakdolgozat
