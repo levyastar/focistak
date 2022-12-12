@@ -1,0 +1,36 @@
+### read
+get http://localhost:3000/players
+
+### read by id
+get http://localhost:3000/players/apcj914lbgf6c3k
+
+### delete
+delete http://localhost:3000/players/apcj914lbgf6c3k
+
+### post
+post http://localhost:3000/players
+Content-Type: application/json
+
+{
+    
+    "name": "player2",
+    "qualification": "7" ,
+    "position": "kapus",
+    "club": "nagyafalu",
+    "age": 22,
+    "nationality": "b-type"
+}
+
+### put
+put http://localhost:3000/players/apcj914lbgf6c3c
+Content-Type: application/json
+
+{
+   
+    "name": "player2",
+    "qualification": "7" ,
+    "position": "kapus",
+    "club": "nagyafalu",
+    "age": 22,
+    "nationality": "b-type"
+}
